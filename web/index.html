@@ -1,3 +1,4 @@
+
 <!-- 
           _____                    _____                _____                    _____          
          /\    \                  /\    \              /\    \                  /\    \         
@@ -44,31 +45,42 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6/css/all.css" rel="stylesheet">
-    <link href="/assets/css/index.css" rel="stylesheet">
+    <link href="assets/css/index.css" rel="stylesheet">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6824112472674918"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/picmo@latest/dist/umd/index.js"></script>
-    <script src="/assets/js/quadtree.js"></script>
-    <script src="/assets/js/main_out.js"></script>
+    <script src="assets/js/quadtree.js"></script>
+    <script src="assets/js/main_out.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-45C2EV6T5X"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'G-45C2EV6T5X');
     </script>
     <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-TDKSTRS');</script>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-TDKSTRS');
+    </script>
     <!-- End Google Tag Manager -->
 </head>
 
@@ -137,27 +149,10 @@
                 <input id="nick" class="nick form-control" placeholder="Nickname" maxlength="100">
                 <button id="emoji-btn" class="emoji-btn btn">😎</button>
                 <select id="gamemode" class="form-control" onchange="setserver(this.value)" required>
-                    <optgroup label="JPTR Servers 🚀">
-                        <option value="localhost:443" selected>MAIN [US]</option>
-                    </optgroup>
-                    <optgroup label="Global Servers 🌐">
-                        <option value="popular-i-wish.glitch.me">10000</option>
-                        <option value="mgagar.glitch.me">βυ𝚝𝚝𝒆яક Λƍαяισ</option>
-                        <option value="captivekr.glitch.me">CαקtΐveKr</option>
-                        <option value="delta-ffa.glitch.me">Delta FFA</option>
-                        <option value="demon-agario.glitch.me">D҈E҉M҈O҈N꙰ ₳₲₳ⱤłØ</option>
-                        <option value="palm-vast-basket.glitch.me">Dissrust Furry Server</option>
-                        <option value="hardc0re-agar.glitch.me">Hardc0re Agar</option>
-                        <option value="kg-agario.glitch.me">KG Agario</option>
-                        <option value="pencil-abuse.glitch.me">Pencil Abuse [FreeAdmin]</option>
-                        <option value="freckle-melodic-iberis.glitch.me">Pencil Rainbow FFA</option>
-                        <option value="honey-third-push.glitch.me">Pencil Shrink</option>
-                        <option value="pure-official-agario.glitch.me">Pure Agario</option>
-                        <option value="xyzffa.glitch.me">XYZ Agario FFA</option>
-                        <option value="xyzmain.glitch.me">XYZ Agario Bots</option>
-                        <option value="xyzultra.glitch.me">XYZ Agario Ultra</option>
-                        <option value="xyzself.glitch.me">XYZ Agario Self Feed</option>
-                    </optgroup>
+                    <option value="bloodonmyjeans.glitch.me" selected>MAIN #1 [US]</option>
+                    <option value="pussylovers.glitch.me" selected>MAIN #2 [US]</option>
+                    <option value="zekrom.glitch.me">Super Rainbow [US]</option>
+                    <option value="love-yourz.glitch.me">Auto-Merge [US]</option>
                 </select>
             </div>
 
@@ -183,6 +178,8 @@
                         Move your mouse to control your cell<br>
                         Press <b>Space</b> to split<br>
                         Press <b>W</b> to eject some mass<br>
+                        If you can't join the first server<br>
+                        <b>JOIN THE 2ND SERVER!</b>
                     </span>
                 </center>
             </div>
@@ -193,105 +190,108 @@
                         This website is open source <a href="https://github.com/imadejptr/jptr-agario"
                             target="_blank">here</a>, feel free to use it :><br>
                         You wanna partner? Contact me on Discord: <span
-                            style="font-family: 'Courier New', Courier, monospace;">Th3Skeleton#1337</span><br>
-                        <-- join the discord o_o </span>
-                </center>
-            </div>
-            <hr>
-            <div id="footer">
-                <a href="https://imadejptr.glitch.me/" target="_blank"><span id="rainbow">Copyright © 2022-2023
-                        imadejptr</span></a>
+                            style="font-family: 'Courier New', Courier, monospace; background-color: #00090e; padding: 5px; border-radius: 1em;">Th3Skeleton#1337</span><br>
+                        <-- join the discord o_o </span> </center> </div> <hr>
+                            <div id="footer">
+                                <a href="https://imadejptr.glitch.me/" target="_blank"><span id="rainbow">Copyright ©
+                                        2022-2023
+                                        imadejptr</span></a>
+                            </div>
+
+                            <div id="versionDialog">
+                                <div class="form-group">
+                                    <img src="https://cdn.glitch.global/9c8c96bb-a059-45d7-8b2b-d37ee6083aa6/logo.png" width="100%">
+                                    <h1 id="rainbow" style="text-align: center;">Check out <a href="https://www.imadejptr.com" target="_blank">imadejptr</a> for more games!</h1>
+                                    <script async
+                                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6003658983346596"
+                                        crossorigin="anonymous"></script>
+                                    <!-- woo-jptragar -->
+                                    <ins class="adsbygoogle" style="display:block"
+                                        data-ad-client="ca-pub-6003658983346596" data-ad-slot="1509634628"
+                                        data-ad-format="auto" data-full-width-responsive="true"></ins>
+                                    <script>
+                                        (adsbygoogle = window.adsbygoogle || []).push({});
+                                    </script>
+                                </div>
+
+                            </div>
+                            <div id="otherWebsite">
+                                <div class="form-group">
+                                    <h2 id="title-about">About</h2>
+                                    <div>
+                                        <hr>
+                                        <center>
+                                            <span class="updates">
+                                                JPTR Agario is a faitful recreation of the agarios in the past that have
+                                                sadly
+                                                fallen.
+                                                This is a heavily modified agario client using Cigar2. If you wanna see
+                                                more games
+                                                just
+                                                like this, go check out <a href="https://imadejptr.glitch.me/">i made
+                                                    jptr</a>. From
+                                                flash games, to html5 games like slope and slither.io, to even old games
+                                                like
+                                                Pokemon
+                                                and Mario Bros. This site offers something that isn't really seen on
+                                                other game
+                                                sites,
+                                                and that is clarity so you are guaranteed to play the game that is shown
+                                                to you, no
+                                                bs
+                                                required. Go check it out and check out the credits for more
+                                            </span>
+                                            <hr>
+                                            <span class="updates">
+                                                <a href="https://discord.gg/UQ35z2ACNw" target="_blank" class="woo">
+                                                    <h4
+                                                        style="color: #c88b3a; text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000; font-size: xx-large;">
+                                                        Join the Discord!</h4>
+                                                    <img src="https://discordapp.com/api/guilds/1049872644528418856/widget.png?style=shield"
+                                                        width="50%" id="dcimg">
+                                                </a>
+                                            </span>
+                                        </center>
+                                    </div>
+                                </div>
+                            </div>
             </div>
 
-            <div id="versionDialog">
-                <div class="form-group">
-                    <script async
-                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6003658983346596"
-                        crossorigin="anonymous"></script>
-                    <!-- woo-jptragar -->
-                    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6003658983346596"
-                        data-ad-slot="1509634628" data-ad-format="auto" data-full-width-responsive="true"></ins>
-                    <script>
-                        (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
+        </div>
 
-            </div>
-            <div id="otherWebsite">
-                <div class="form-group">
-                    <h2 id="title-about">About</h2>
-                    <div>
-                        <hr>
-                        <center>
-                            <span class="updates">
-                                JPTR Agario is a faitful recreation of the agarios in the past that have sadly
-                                fallen.
-                                This is a heavily modified agario client using Cigar2. If you wanna see more games
-                                just
-                                like this, go check out <a href="https://imadejptr.glitch.me/">i made jptr</a>. From
-                                flash games, to html5 games like slope and slither.io, to even old games like
-                                Pokemon
-                                and Mario Bros. This site offers something that isn't really seen on other game
-                                sites,
-                                and that is clarity so you are guaranteed to play the game that is shown to you, no
-                                bs
-                                required. Go check it out and check out the credits for more
-                            </span>
-                            <hr>
-                            <span class="updates">
-                                <a href="https://discord.gg/UQ35z2ACNw" target="_blank" class="woo">
-                                    <h4
-                                        style="color: #c88b3a; text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000; font-size: xx-large;">
-                                        Join the Discord!</h4>
-                                    <img src="https://discordapp.com/api/guilds/1049872644528418856/widget.png?style=shield"
-                                        width="50%" id="dcimg">
-                                </a>
-                            </span>
-                        </center>
-                    </div>
-                </div>
+        <div id="connecting">
+            <div id="connecting-content">
+                <h2>Loading...</h2>
+                <p> If you cannot connect to the servers, check if you have some anti virus or firewall blocking the
+                    connection.</p>
             </div>
         </div>
 
-    </div>
-
-    <div id="connecting">
-        <div id="connecting-content">
-            <h2>Loading...</h2>
-            <p> If you cannot connect to the servers, check if you have some anti virus or firewall blocking the
-                connection.</p>
+        <div id="mobileStuff" style="display: none;">
+            <div id="touchpad"></div>
+            <div id="touchCircle" style="display: none;"></div>
+            <img src="/assets/img/split.png" id="splitBtn">
+            <img src="/assets/img/eject.png" id="ejectBtn">
         </div>
-    </div>
 
-    <div id="mobileStuff" style="display: none;">
-        <div id="touchpad"></div>
-        <div id="touchCircle" style="display: none;"></div>
-        <img src="/assets/img/split.png" id="splitBtn">
-        <img src="/assets/img/eject.png" id="ejectBtn">
-    </div>
-
-    <canvas id="canvas" width="800" height="600"></canvas>
-    <input type="text" id="chat_textbox" placeholder="Press enter to chat" maxlength="200">
-    <div style="font-family:'Ubuntu'">&nbsp;</div>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDKSTRS" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    <script src="/assets/js/vanillaEmojiPicker.js"></script>
-    <script>
-
-        new EmojiPicker({
-            trigger: [
-                {
+        <canvas id="canvas" width="800" height="600"></canvas>
+        <input type="text" id="chat_textbox" placeholder="Press enter to chat" maxlength="200">
+        <div style="font-family:'Ubuntu'">&nbsp;</div>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDKSTRS" height="0" width="0"
+                style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <script src="/assets/js/vanillaEmojiPicker.js"></script>
+        <script>
+            new EmojiPicker({
+                trigger: [{
                     selector: '.emoji-btn',
                     insertInto: '#emoji' // '.selector' can be used without array
-                }
-            ],
-            closeButton: true,
-            //specialButtons: green
-        });
-
-    </script>
+                }],
+                closeButton: true,
+                //specialButtons: green
+            });
+        </script>
 </body>
 
 </html>
