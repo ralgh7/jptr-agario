@@ -3,7 +3,7 @@
 My very own Protocol 6 Agar.io client for private servers
 
 <p align="center">
-  <img src="https://cdn.glitch.global/bea31c3d-4f40-4fd7-896f-d3f4dd772b9a/3F053696-272D-4FB4-B899-364BF32B6CDB.png" width="622px" title="hover text">
+  <img src="https://cdn.glitch.global/2d6e8d70-57a5-4dd2-b4bb-c1505f83f020/JPTRAGAR.png" width="622px" title="hover text">
 </p>
 
 ![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
